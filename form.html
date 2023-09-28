@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>토트넘 핫스퍼 서포터즈 가입</title>
+</head>
+<body>
+    <h2>토트넘 핫스퍼 서포터즈 가입</h2>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>회원 정보</legend>
+            
+            <label for="name">이름:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="dob">생년월일:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <span>성별:</span>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">남성</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">여성</label><br><br>
+
+            <span>가입 상품:</span>
+            <input type="checkbox" id="news" name="subscription" value="newsletter">
+            <label for="news">뉴스레터</label>
+            <input type="checkbox" id="merch" name="subscription" value="merchandise">
+            <label for="merch">상품 할인</label><br><br>
+
+            <label for="player">좋아하는 선수:</label>
+            <select id="player" name="player">
+                <optgroup label="공격">
+                    <option value="kane">Harry Kane</option>
+                    <option value="son">Son Heung-min</option>
+                </optgroup>
+                <optgroup label="수비">
+                    <option value="dyer">Eric Dier</option>
+                    <option value="alderweireld">Toby Alderweireld</option>
+                </optgroup>
+            </select><br><br>
+
+            <label for="motivation">가입 동기:</label><br>
+            <textarea id="motivation" name="motivation" rows="4" cols="50"></textarea><br><br>
+
+            <label for="color">선호하는 유니폼 색상:</label>
+            <input type="color" id="color" name="color"><br><br>
+
+            <label for="email">이메일 주소:</label>
+            <input list="emails" id="email" name="email">
+            <datalist id="emails">
+                <option value="supporter@spurs.com">
+                <option value="fan@spurs.co.uk">
+            </datalist><br><br>
+
+            <input type="submit" value="가입하기">
+        </fieldset>
+    </form>
+</body>
+</html>
