@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@600&display=swap");
+
+body {
+  margin: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Inclusive Sans", sans-serif;
+}
+.entire {
+  width: 100%;
+}
+
+header {
+  height: 85px;
+  background-color: #04aa6d;
+  border-radius: 4px;
+  color: white;
+}
+
+header h1 {
+  width: fit-content;
+  padding: 15px;
+  letter-spacing: 2.5px;
+}
+
+header p {
+  width: fit-content;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  padding-left: 15px;
+  position: relative;
+  bottom: 43.5px;
+}
+
+main {
+  display: flex;
+  margin-top: 4px;
+  min-height: 330px;
+  max-height: fit-content;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: -2.2%;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+}
+
+nav li {
+  background-color: #f1f1f1;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  width: 180px;
+  height: 25px;
+  line-height: 28px;
+  font-size: 18px;
+  margin: 4px;
+  padding: 2px;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+
+a:first-child li {
+  color: white;
+  background-color: #04aa6d;
+  font-weight: 900;
+  line-height: 28px;
+}
+
+section {
+  padding: 10px;
+}
+
+section h1 {
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+section h2 {
+  font-weight: 900;
+  font-size: 28px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+section p {
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  line-height: 25px;
+}
+
+section p a {
+  text-decoration: underline;
+  color: black;
+}
+
+aside {
+  width: 180px;
+  height: inherit;
+  padding: 10px;
+  background-color: #32a4e7;
+  color: white;
+  border-radius: 4px;
+}
+
+aside h3 {
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 0.7px;
+}
+
+aside p {
+  width: inherit;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+}
+
+footer {
+  border: 1px solid #d4d4d4;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 80%;
+  line-height: 14px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}

@@ -1,0 +1,108 @@
+body {
+  background-color: #d14836;
+}
+
+header {
+  color: white;
+  margin-left: 15px;
+}
+
+header h1 {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  width: fit-content;
+  height: 80px;
+  line-height: 86px;
+  font-size: 64px;
+}
+
+header p {
+  margin-top: 5px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.upperDiv {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+}
+
+.leftWing h1 {
+  color: #d14836;
+  font-weight: 900;
+}
+
+.leftWing p {
+  line-height: 17px;
+  font-size: 15.6px;
+}
+
+.leftWing p a {
+  text-decoration: none;
+  color: #d14836;
+}
+
+.leftWing h2 {
+  color: #d14836;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+.rightWing ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.rightWing a {
+  text-decoration: none;
+  color: white;
+}
+
+.rightWing ul li {
+  background-color: #d14836;
+  border: 1px solid #d14836;
+  border-radius: 40px;
+  width: 160px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  padding: 2px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.here {
+  background-color: white !important;
+  color: #d14836;
+  font-weight: 900;
+}
+
+.lowerDiv {
+  background-color: #f6dad7;
+  margin: 0px;
+  padding: 10px;
+  color: #d14836;
+}
+
+.lowerDiv h3 {
+  font-weight: 900;
+}
+
+.lowerDiv p {
+  font-weight: 500;
+}
+
+footer {
+  color: white;
+  padding: 10px;
+  font-size: 75%;
+  line-height: 14px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+  text-align: center;
+  line-height: 20px;
+}
